@@ -5,14 +5,19 @@
     box-sizing: content-box;
     font-family: 'Raleway', sans-serif;
 }
+
 body{
     display: flex;
-    width: 160vh;
-    height: 50vw;
     justify-content: center;
     align-items: center;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(29,155,240,1) 100%);
+   
+    background:linear-gradient(45deg, rgb(0, 0, 0) 80%, rgba(29,155,240,1) 20%);
+}
+.d-flex{
+    max-height: 120vh;
+    margin-top: 150px;
+    margin-left: 60px;
+    opacity: 0.6;
 }
 
 .form-Bg{
